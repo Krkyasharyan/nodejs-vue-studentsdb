@@ -12,6 +12,16 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 
+// import mysql from 'mysql'
+
+// var config = {
+//     user: process.env.DB_USER,
+//     database: .env.DB_NAME,
+//     password: process.env.DB_PASS,
+// };
+
+
+
 app.use(bodyParser.urlencoded({ extended: false }))
 
 app.use(bodyParser.json())
